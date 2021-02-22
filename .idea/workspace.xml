@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b1523cb-6dce-476f-9dc5-63eee3ede82b" name="Default Changelist" comment="" />
+    <list default="true" id="8b1523cb-6dce-476f-9dc5-63eee3ede82b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1onAd5FB6RqaKJOm0AI5jeZokJe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,11 +53,23 @@
       <workItem from="1613912065483" duration="4088000" />
       <workItem from="1613934654189" duration="1505000" />
       <workItem from="1613936507611" duration="696000" />
-      <workItem from="1613990759374" duration="2056000" />
+      <workItem from="1613990759374" duration="2810000" />
     </task>
+    <task id="LOCAL-00001" summary="Mise à jour du bot">
+      <created>1613994311703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613994311703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mise à jour du bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour du bot" />
   </component>
 </project>
