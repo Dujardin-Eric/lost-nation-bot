@@ -1,0 +1,41 @@
+
+bot.on('ready', function() {
+
+    /* Mise en place de l'avatar du bot */
+
+
+    // bot.user.setAvatar('./avatar.png')
+    //.then(() => console.log('Avatar mis en place avec succès'))
+    //.catch(console.error)
+
+
+    /* Mise en place de l'activité du bot */
+
+    bot.user.setActivity("Une bière de plus").catch(console.error)
+
+})
+
+bot.on('guildMemberAdd', function (member) {
+    member.createDM().then(function (channel) {
+        return channel.send('Bienvenue sur le Discord Lost Nation '+ member.displayName + " n'oublie pas de mentionner en note perso le nom du parrain")
+    }).catch(console.error)
+})
+
+/* Message avec mention de l'utilisateur qui fait la commande*/
+
+/*
+bot.on('message', function (message){
+    if (message.content === '!test'){
+        message.reply('Ne pas tenir compte des messages !')
+    }
+})
+*/
+
+/* Message du bot sans mention*/
+bot.on('message', function (message){
+    if (message.content === '!test'){
+        message.channel.send('Ne pas tenir compte des messages !')
+    }
+})
+
+bot.login('ODEyNzYzMjM3ODMyODUxNDg3.YDFewA.N0YiCfvk7lFfwF4EeDVaqzSsepA')
