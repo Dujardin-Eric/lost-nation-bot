@@ -34,13 +34,13 @@ bot.on('guildMemberAdd', member => {
 
     console.log("Un nouveau membre est arrivé")
 
-    /* Attribution d'un rôle automatique (invité ici avec cet ID)
-    member.roles.add("528689152560988161").then(mbr => {
+    // Attribution d'un rôle automatique (invité ici avec cet ID)
+    member.roles.add("827481806575501332").then(mbr => {
         console.log("Rôle attribue avec succès à " + mbr.displayName)
     }).catch(() => {
         console.log("Le rôle n'a pu être assigné")
     });
-     */
+
 
     member.createDM().then(function (channel) {
         return channel.send("Bienvenue sur le Discord Lost Nation **" + member.displayName + "** n'oublie pas de mentionner en note perso le nom de ton parrain")
